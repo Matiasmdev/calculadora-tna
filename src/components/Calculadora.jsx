@@ -9,7 +9,7 @@ export const Calculadora = () => {
   const [isMonth, setIsMonth] = useState(true);
   const [result, setResult] = useState('');
   const [resultText, setResultText] = useState('');
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   // Función para convertir números a palabras
   const numberToWords = (num) => {
